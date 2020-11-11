@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkolivegreen;
+}
+fieldset {
+    margin-top: 10px;
+    padding-left: 10px;
+    border: 4px solid darkgreen;
+}
+
+input {
+    margin-left: 10px;
+}
+label {
+    margin-left: 5px;
+}
+#pizzaDetails, #finalContact, #finalDetails, #finalTotals {
+    margin-right: 75%;
+}
+#pizzaImg1, #pizzaImg2, #pizzaImg3 {
+    padding-left: 10px;
+    float: right;
+}
+.tab-pane {
+    padding: 10px;
+}
+.nav-item {
+    background-color: green;
+}
+.nav-link {
+    color: red;
+}
+.nav-link:hover {
+    color: whitesmoke;
+}
+
+.form-group {
+    padding-right: 20px;
+}
+
+.btn {
+    background-color: darkolivegreen;
+}
+
+#delAddress {
+    margin-right: 50%;
+}
+
+#details {
+    color: whitesmoke;
+    background-color: darkred;
+    padding-bottom: 10%;
+}
+
+#deliveryDetails {
+    color: whitesmoke;
+    background-color: darkred;
+    padding-bottom: 20%;
+}
+
+#totals {
+    color: whitesmoke;
+    background-color: darkred;
+    padding-bottom: 10%;
+}
+
+#logo {
+    background-color: darkgreen;
+    padding-bottom: 10px;
+    text-align: center;
+}

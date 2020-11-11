@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Eric's Pizza Palace</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1 id="logo">Eric's Pizza Palace</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <nav>
+            <ul id="tabs" class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#details">Details</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#deliveryDetails">Address/Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#totals">Totals</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="tab-content">
+            <div id="details" class="tab-pane active">
+                <h2>Chose your Pizza Options:</h2>
+                <img src="img/pizza-with-cheese-and-green-leaves.jpg" alt="Pizza with Delicious Toppings" id="pizzaImg1"
+                     width="800" height="533">
+                <form id="pizzaSizeForm">
+                    <fieldset id="pizzaSize">
+                        <legend>Pizza Size:</legend>
+
+                        <label for="size-sm">Small ($7):</label>
+                        <input type="radio" name="size" id="size-sm" data-size="Small" data-price="7" checked="checked">
+                        <br>
+
+                        <label for="size-med">Medium ($9):</label>
+                        <input type="radio" name="size" id="size-med" data-size="Medium" data-price="9">
+                        <br>
+
+                        <label for="size-lg">Medium ($12):</label>
+                        <input type="radio" name="size" id="size-lg"  data-size="Large" data-price="12">
+                    </fieldset>
+                </form>
+                <form id="pizzaCrustForm">
+                    <fieldset id="pizzaCrust">
+                        <legend>Crust Style:</legend>
+
+                        <label for="crustThin">Thin:</label>
+                        <input type="radio" name="crust" id="crustThin" checked="checked" data-crusttype="Thin">
+                        <br>
+
+                        <label for="crustPan">Pan:</label>
+                        <input type="radio" name="crust" id="crustPan" data-crusttype="Pan">
+                        <br>
+
+                        <label for="crustGfree">Gluten Free:</label>
+                        <input type="radio" name="crust" id="crustGfree" data-crusttype="Gluten Free">
+                    </fieldset>
+                </form>
+                <form id="pizzaTopForm">
+                    <fieldset id="pizzaTops">
+                        <legend>Meat Selection:</legend>
+                        <label for="topPep">Peperoni:</label>
+                        <input type="checkbox" name="topping" id="topPep" value="Peperoni">
+
+                        <label for="topSaus">Italian Sausage:</label>
+                        <input type="checkbox" name="topping" id="topSaus" value="Italian Sausage">
+
+                        <label for="topBac">Bacon:</label>
+                        <input type="checkbox" name="topping" id="topBac" value="Bacon">
+
+                        <label for="topCadBac">Canadian Bacon:</label>
+                        <input type="checkbox" name="topping" id="topCadBac" value="Canadian Bacon">
+
+                        <label for="topChick">Chicken:</label>
+                        <input type="checkbox" name="topping" id="topChick" value="Chicken">
+                    </fieldset>
+                </form>
+                <form id="pizzaVegForm">
+                    <fieldset id="pizzaVeg">
+                        <legend>Vegetable Selection:</legend>
+                        <label for="vegGrPep">Green Peppers:</label>
+                        <input type="checkbox" name="veg" id="vegGrPep" value="Green Peppers">
+
+                        <label for="vegRedPep">Red Peppers:</label>
+                        <input type="checkbox" name="veg" id="vegRedPep" value="Red Peppers">
+
+                        <label for="vegOnion">Onions:</label>
+                        <input type="checkbox" name="veg" id="vegOnion" value="Onions">
+
+                        <label for="vegOlive">Olives:</label>
+                        <input type="checkbox" name="veg" id="vegOlive" value="Olives">
+
+                        <label for="vegSpin">Spinach:</label>
+                        <input type="checkbox" name="veg" id="vegSpin" value="Spinach">
+
+                        <label for="vegBasil">Basil:</label>
+                        <input type="checkbox" name="veg" id="vegBasil" value="Basil">
+                    </fieldset>
+                </form>
+
+            </div>
+
+            <div id="deliveryDetails" class="tab-pane">
+
+                <h2>Delivery Details:</h2>
+                <img src="img/margherita-pizza-sliced-food-italian-preview.jpg" height="485" width="728" alt="Margherita Pizza" id="pizzaImg2">
+                <div class="form-group">
+                    <form id="delForm">
+                        <fieldset id="delAddress">
+                            <div class="form-group">
+                                <label for="inputName">Name</label>
+                                <input type="text" class="form-control" name="inputName" id="inputName" placeholder="John Smith">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="inputAddress">Address</label>
+                                <input type="text" class="form-control" name="inputAddress" id="inputAddress" placeholder="1234 Main St">
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputCity">City</label>
+                                    <input type="text" class="form-control" name="inputCity" id="inputCity" placeholder="City">
+                                </div>
+                                <div class="form-group col-md-2">
+                                    <label for="inputState">State</label>
+                                    <input type="text" name="inputState" id="inputState" class="form-control" maxlength="2" placeholder="AA">
+                                </div>
+                                <div class="form-group col-md-3">
+                                    <label for="inputZip">Zip</label>
+                                    <input type="text" class="form-control" name="inputZip" id="inputZip" placeholder="55555">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputPhone">Contact Phone</label>
+                                    <input type="tel" class="form-control" name="inputPhone" id="inputPhone" placeholder="555-555-5555">
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+
+
+            </div>
+
+            <div id="totals" class="tab-pane">
+                <h2>Review Order Details</h2>
+                <img src="img/one-slice-of-whole-pizza.jpg" alt="Pizza Slice with Olives" id="pizzaImg3">
+                <fieldset id="finalContact">
+                    <legend>Contact Details:</legend>
+                    <p>Name: <span id="outputName"></span></p>
+                    <p>Address: <span id="outputAddress"></span></p>
+                    <p><span id="outputCity"></span>, <span id="outputState"></span> <span id="outputZip"></span> </p>
+                    <p>Contact Phone: <span id="outputPhone"></span></p>
+                </fieldset>
+                <fieldset id="finalDetails">
+                    <legend>Order Details:</legend>
+                    <p>Size: <span id="outputSize"></span></p>
+                    <p>Crust Type: <span id="outputCrust"></span></p>
+                    <p>Meat Toppings: <span id="outputMeatTop"></span> </p>
+                    <p>Veggie Toppings: <span id="outputVegiTop"></span></p>
+                </fieldset>
+                <fieldset id="finalTotals">
+                    <legend>Totals:</legend>
+                    <p>Subtotal: $<span id="outputSubTotal"></span></p>
+                    <p>Tax: $<span id="outputTax"></span></p>
+                    <p>Delivery Fee: $<span id="outputDelFee"></span></p>
+                    <p>Grand Total: $<span id="outputGrandTotal"></span></p>
+                </fieldset>
+
+                <input type="submit" value="Submit Order">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+            integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
