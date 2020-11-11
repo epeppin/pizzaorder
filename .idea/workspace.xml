@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afd2b573-f1d3-4a3f-95a6-3f8fb0416c46" name="Default Changelist" comment="" />
+    <list default="true" id="afd2b573-f1d3-4a3f-95a6-3f8fb0416c46" name="Default Changelist" comment="add legend info">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +21,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jqTZprSLUf7zvqb1U8Vad3BdYt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -41,22 +47,46 @@
       <option name="presentableId" value="Default" />
       <updated>1604530679628</updated>
       <workItem from="1604530680659" duration="4492000" />
-      <workItem from="1604950542940" duration="30922000" />
+      <workItem from="1604950542940" duration="31194000" />
     </task>
+    <task id="LOCAL-00001" summary="add legend info">
+      <created>1605138340062</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605138340062</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add legend info" />
+    <option name="LAST_COMMIT_MESSAGE" value="add legend info" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1180" y="334" key="FileChooserDialogImpl" timestamp="1604965104392">
       <screen x="-1920" y="0" width="1920" height="1160" />
     </state>
     <state x="-1180" y="334" key="FileChooserDialogImpl/-973.1200.1920.1040/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1604965104392" />
+    <state x="-1082" y="477" key="Github.ShareDialog" timestamp="1605138133132">
+      <screen x="-1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="-1082" y="477" key="Github.ShareDialog/-973.1200.1920.1040/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1605138133132" />
+    <state x="-1184" y="284" key="Github.UntrackedFilesDialog" timestamp="1605138139576">
+      <screen x="-1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="-1184" y="284" key="Github.UntrackedFilesDialog/-973.1200.1920.1040/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1605138139576" />
     <state x="-1459" y="224" key="SettingsEditor" timestamp="1604951448300">
       <screen x="-1920" y="0" width="1920" height="1160" />
     </state>
     <state x="-1459" y="224" key="SettingsEditor/-973.1200.1920.1040/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1604951448300" />
+    <state x="-1368" y="312" key="Vcs.Push.Dialog.v2" timestamp="1605138341589">
+      <screen x="-1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="-1368" y="312" key="Vcs.Push.Dialog.v2/-973.1200.1920.1040/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1605138341589" />
     <state x="-1304" y="270" key="run.anything.popup" timestamp="1604956000911">
       <screen x="-1920" y="0" width="1920" height="1160" />
     </state>
