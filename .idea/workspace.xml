@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afd2b573-f1d3-4a3f-95a6-3f8fb0416c46" name="Default Changelist" comment="add legend info">
+    <list default="true" id="afd2b573-f1d3-4a3f-95a6-3f8fb0416c46" name="Default Changelist" comment="legend formatting">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +49,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604530679628</updated>
       <workItem from="1604530680659" duration="4492000" />
-      <workItem from="1604950542940" duration="31194000" />
+      <workItem from="1604950542940" duration="31395000" />
     </task>
     <task id="LOCAL-00001" summary="add legend info">
       <created>1605138340062</created>
@@ -56,7 +58,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605138340062</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="legend formating">
+      <created>1605138406601</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605138406601</updated>
+    </task>
+    <task id="LOCAL-00003" summary="legend formatting">
+      <created>1605138497719</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605138497719</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -64,7 +80,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add legend info" />
-    <option name="LAST_COMMIT_MESSAGE" value="add legend info" />
+    <MESSAGE value="legend formating" />
+    <MESSAGE value="legend formatting" />
+    <option name="LAST_COMMIT_MESSAGE" value="legend formatting" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1180" y="334" key="FileChooserDialogImpl" timestamp="1604965104392">
@@ -83,10 +101,10 @@
       <screen x="-1920" y="0" width="1920" height="1160" />
     </state>
     <state x="-1459" y="224" key="SettingsEditor/-973.1200.1920.1040/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1604951448300" />
-    <state x="-1368" y="312" key="Vcs.Push.Dialog.v2" timestamp="1605138341589">
+    <state x="-1368" y="312" key="Vcs.Push.Dialog.v2" timestamp="1605138498947">
       <screen x="-1920" y="0" width="1920" height="1160" />
     </state>
-    <state x="-1368" y="312" key="Vcs.Push.Dialog.v2/-973.1200.1920.1040/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1605138341589" />
+    <state x="-1368" y="312" key="Vcs.Push.Dialog.v2/-973.1200.1920.1040/-1920.0.1920.1160/0.0.1920.1160@-1920.0.1920.1160" timestamp="1605138498947" />
     <state x="-1304" y="270" key="run.anything.popup" timestamp="1604956000911">
       <screen x="-1920" y="0" width="1920" height="1160" />
     </state>

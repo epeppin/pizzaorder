@@ -11,9 +11,6 @@ fieldset {
     border: 4px solid darkgreen;
 }
 
-legend {
-    size: 10em;
-}
 
 input {
     margin-left: 10px;
