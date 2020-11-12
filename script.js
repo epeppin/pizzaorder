@@ -100,7 +100,7 @@ $(document).ready(
 
         //calc and display totals
         function orderTotals() {
-            var subTotal = (pizzaPrice + vegTotal + toppingsTotal);
+            subTotal = (pizzaPrice + vegTotal + toppingsTotal);
             var taxTotal = (subTotal * taxRate)
             var grandTotal = (subTotal + taxTotal + delFee)
             $("#outputSubTotal").text(subTotal.toFixed(2)).css("color", "lightGreen")
